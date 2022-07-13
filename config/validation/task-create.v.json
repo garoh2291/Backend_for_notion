@@ -1,0 +1,25 @@
+{
+  "title": "create task",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  "required": [
+    "body"
+  ]
+}
